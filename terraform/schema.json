@@ -1,0 +1,62 @@
+[
+  {
+    "name": "asin",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "helpful",
+    "type": "INTEGER",
+    "mode": "REPEATED"
+  },
+  {
+    "name": "overall",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "reviewText",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "reviewTime",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "reviewerID",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "reviewerName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "summary",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "unixReviewTime",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "product",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "NPS",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Category",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]
