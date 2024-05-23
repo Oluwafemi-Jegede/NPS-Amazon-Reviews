@@ -8,6 +8,6 @@ dump.txt
 oldmain.py
 terraform.tfstate
 terraform/variables.tf
-/.DS_Store
+terraform/.DS_Store
 ../.idea/
 
