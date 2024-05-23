@@ -1,0 +1,8 @@
+apache_beam==2.56.0
+pandas==2.2.2
+pyspark==3.5.1
+python-dotenv==1.0.1
+pyspark==3.5.1
+google-generativeai
+google-auth
+google-cloud
