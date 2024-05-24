@@ -8,9 +8,9 @@ The flow of the pipeline is
 - Trigger cloud function when the review file is dropped into a GCS bucket
 - Cloud function submits a dataproc job to created cluster
 - Dataproc job streams review file to a pubsub topic
-- Dataflow pull data from pubsub subscription and sends customer review to Gemini API
+- Dataflow pulls data from pubsub subscription and sends customer review to Gemini API
 - Gemini determines the product category & product name, and performs sentiment analysis on review text by categorizing reviews into [Promoter,Passives,Distractors]
 - New data is streamed into BQ
-- BQ data is Visualized to more insights
+- BQ data is Visualized for more insights
 
 ![img.png](img.png)
